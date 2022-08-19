@@ -29,7 +29,7 @@
                   <TextField fx:id="txtRegPassword" layoutX="70.0" layoutY="189.0" prefHeight="29.0" prefWidth="396.0" promptText="Password" />
                   <TextField fx:id="txtRegEmail" layoutX="70.0" layoutY="234.0" prefHeight="29.0" prefWidth="396.0" promptText="Email" />
                   <TextField fx:id="txtRegPhoneNo" layoutX="70.0" layoutY="276.0" prefHeight="29.0" prefWidth="396.0" promptText="Phone Number" />
-                  <Button layoutX="81.0" layoutY="388.0" mnemonicParsing="false" onAction="#registration" prefHeight="46.0" prefWidth="365.0" style="-fx-background-color: white; -fx-border-color: #4cd137; -fx-background-radius: 90; -fx-border-radius: 90;" styleClass="btnCreat" stylesheets="@../css/Style.css" text="Create Account" textFill="#4ee408">
+                  <Button layoutX="81.0" layoutY="388.0" mnemonicParsing="false" onAction="#registration" prefHeight="46.0" prefWidth="365.0" style="-fx-background-color: white; -fx-border-color: #4cd137; -fx-background-radius: 90; -fx-border-radius: 90;" styleClass="btnCreat" stylesheets="@css/Style.css" text="Create Account" textFill="#4ee408">
                      <font>
                         <Font name="System Bold" size="13.0" />
                      </font>
@@ -60,7 +60,7 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <Button fx:id="getStarted" layoutX="188.0" layoutY="550.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="140.0" style="-fx-background-color: #f5f6fa; -fx-background-radius: 90;" styleClass="btnLogin" stylesheets="@../css/Style.css" text="Log In Here" textFill="#37c2f8">
+                  <Button fx:id="getStarted" layoutX="188.0" layoutY="550.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="140.0" style="-fx-background-color: #f5f6fa; -fx-background-radius: 90;" styleClass="btnLogin" stylesheets="@css/Style.css" text="Log In Here" textFill="#37c2f8">
                      <font>
                         <Font name="System Bold" size="13.0" />
                      </font>
@@ -79,12 +79,12 @@
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnSignUp" layoutX="163.0" layoutY="529.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="29.0" prefWidth="201.0" style="-fx-background-color: ehite; -fx-background-radius: 90; -fx-border-color: #6bcd55; -fx-border-radius: 90;" styleClass="btnSingUp" stylesheets="@../css/Style.css" text="Sing Up" textFill="#6bcd55">
+                  <Button fx:id="btnSignUp" layoutX="163.0" layoutY="529.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="29.0" prefWidth="201.0" style="-fx-background-color: ehite; -fx-background-radius: 90; -fx-border-color: #6bcd55; -fx-border-radius: 90;" styleClass="btnSingUp" stylesheets="@css/Style.css" text="Sing Up" textFill="#6bcd55">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="149.0" layoutY="403.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="227.0" style="-fx-background-radius: 90; -fx-border-color: #0fbcf9; -fx-border-radius: 90; -fx-background-color: white;" styleClass="btnLogin" stylesheets="@../css/Style.css" text="Login" textFill="#0fbcf9">
+                  <Button layoutX="149.0" layoutY="403.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="227.0" style="-fx-background-radius: 90; -fx-border-color: #0fbcf9; -fx-border-radius: 90; -fx-background-color: white;" styleClass="btnLogin" stylesheets="@css/Style.css" text="Login" textFill="#0fbcf9">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
@@ -103,7 +103,7 @@
                   </Label>
                   <ImageView fitHeight="106.0" fitWidth="140.0" layoutX="219.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../assets/icons8-male-user-96.png" />
+                        <Image url="@assets/icons8-male-user-96.png" />
                      </image>
                   </ImageView>
                </children>
